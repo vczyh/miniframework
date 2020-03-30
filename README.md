@@ -1,12 +1,21 @@
 ## Quick Start
 
-1.创建 `mini.properties`
+1. `pom.xml`
+```xml
+<dependency>
+    <groupId>com.vczyh</groupId>
+    <artifactId>miniframework</artifactId>
+    <version>1.1.0</version>
+</dependency>
+```
+
+2.创建 `mini.properties`
 
 ```properties
 mini.base = org.example
 mini.jsp = /WEB-INF/jsp/
 ```
-2.创建 `TestController`
+3.创建 `TestController`
 
 ```java
 @Controller
